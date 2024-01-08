@@ -57,7 +57,7 @@ I suggest creating a Python Virtual Environment:
 ```commandline
 python3 -m venv venv
 source venv/bin/activate
-pip install requirements.txt
+pip install -r requirements.txt
 pip install -e .
 python hdf5viewer.py
 ```
